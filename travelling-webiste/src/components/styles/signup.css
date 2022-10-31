@@ -1,0 +1,62 @@
+.form-container {
+    background: #212121;
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-group label {
+    font-size: .9rem;
+    letter-spacing: 1px;
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 1rem;
+  }
+  
+  .input-group input:focus {
+    box-shadow: 0 0 0 3px #FF5252;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background: #FF5252;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:focus,
+  button:hover {
+    background: hsl(0, 100%, 76%);
+  }
+  
+  @media (max-width: 700px){
+    .container {
+      flex-direction: column;
+      gap: 25px;
+    }
+  }
+    
